@@ -1,43 +1,69 @@
+html{
+    background: url(NBG1.svg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body{ 
     text-align: center;  
-    background-size: cover;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-image: url(https://cyberhawk.iecsemanipal.com/bg.svg) ;
-    font-family: sans-serif; 
-    font-weight: 100; 
+    
+    font-family : 'Josefin Sans';
+    /* font-weight: 900;  */
 } 
+
 h1{ 
   color: white; 
-  font-weight: 100; 
-  font-size: 50px; 
-  margin: 40px 0px 20px; 
+  font-weight: 900; 
+  font-size: 6.5vw; 
+  margin: 3vh 0px; 
+  letter-spacing: 0.05em;
 } 
+.iecse-logo{
+    position: absolute;
+    width:5vw;
+    height:5vw;
+    left:0;
+    top:0;
+    margin:3vh;
+}
+.hawk-logo{
+    position: absolute;
+    width:5vw;
+    height:5vw;
+    right:0;
+    top:0;
+    margin:3vh;
+}
+.center-text{
+    color:white;
+    font-size: 3.5vw;
+    letter-spacing: 0.2em;
+    margin-top:20vh;
+}
  #timer{ 
-    font-family: sans-serif; 
+    
     color: #fff; 
     display: inline-block; 
-    font-weight: 100; 
     text-align: center; 
-    font-size: 30px; 
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
 } 
 #timer > div{ 
-    padding: 10px; 
-    border-radius: 3px; 
-    background: #11ABC1; 
+    padding-top: 1vw; 
+    /* border-radius: 3px;  */
+    /* background: #11ABC1;  */
     display: inline-block; 
 } 
 #timer div > span{ 
-    padding: 15px; 
-    border-radius: 3px; 
-    background: #252669; 
-    display: inline-block; 
+    padding: 1vh; 
+    display: inline-block;
+    font-size : 12vw; 
 } 
 .text{ 
-    padding-top: 5px; 
-    font-size: 16px; 
+    
+    font-size: 3vw; 
 } 
-#timeup{
-    color:white;
+.col{
+    margin-bottom:0.5vh;
 }
