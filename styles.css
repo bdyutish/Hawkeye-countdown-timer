@@ -1,69 +1,138 @@
 html{
-    background: url(NBG1.svg) no-repeat center center fixed; 
+    background: url(bgnew1.svg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
+@font-face{
+    font-family: hawk-font;
+    src: url(hawkfont.ttf);
+}
 body{ 
     text-align: center;  
     
-    font-family : 'Josefin Sans';
+    font-family : 'hawk-font';
     /* font-weight: 900;  */
 } 
 
+@media only screen and (min-width: 992px) {
+
+    h1{ 
+        color :#b455ff; 
+        font-weight: 900; 
+        font-size: 4vw; 
+        margin: 3vh 0px; 
+        letter-spacing: 0.05em;
+      } 
+      .iecse-logo{
+          position: absolute;
+          width:4vw;
+          height:4vw;
+          left:1vw;
+          top:0;
+          margin:3vh;
+      }
+      .hawk-logo{
+          position: absolute;
+          width:4vw;
+          height:4vw;
+          right:1vw;
+          bottom:0;
+          margin:3vh;
+      }
+      .center-text{
+          color:#b455ff;
+          font-size: 3.5vw;
+          letter-spacing: 0.2em;
+          margin-top:20vh;
+      }
+       #timer{ 
+          
+          color: #b455ff; 
+          display: inline-block; 
+          text-align: center; 
+          display:flex;
+          justify-content: center;
+          margin-top: 5vh;
+      } 
+      .container{
+          display: flex;
+      }
+      .num{
+            font-size: 10vw ;
+      }
+     
+      
+      .text{ 
+          
+          font-size: 2.5vw; 
+      } 
+      .col{
+          /* margin-bottom:0.5vh;
+           */
+           margin-left:3vw;
+           margin-right: 3vw;
+           font-size: 10vw;
+      }
+}
+@media only screen and (max-width: 992px) {
 h1{ 
-  color: white; 
+  color: #b455ff; 
   font-weight: 900; 
-  font-size: 6.5vw; 
+  font-size: 9vw; 
   margin: 3vh 0px; 
   letter-spacing: 0.05em;
 } 
 .iecse-logo{
     position: absolute;
-    width:5vw;
-    height:5vw;
+    width:8vw;
+    height:8vw;
     left:0;
     top:0;
     margin:3vh;
 }
 .hawk-logo{
     position: absolute;
-    width:5vw;
-    height:5vw;
+    width:8vw;
+    height:8vw;
     right:0;
-    top:0;
+    bottom:0;
     margin:3vh;
 }
 .center-text{
-    color:white;
-    font-size: 3.5vw;
+    color:#b455ff;
+    font-size: 5vw;
     letter-spacing: 0.2em;
     margin-top:20vh;
 }
  #timer{ 
     
-    color: #fff; 
+    color: #b455ff; 
     display: inline-block; 
     text-align: center; 
-    /* margin-top: 5vh; */
+    display:flex;
+    justify-content: center;
+    margin-top: 5vh;
 } 
-#timer > div{ 
-    padding-top: 1vw; 
-    /* border-radius: 3px;  */
-    /* background: #11ABC1;  */
-    display: inline-block; 
-} 
-#timer div > span{ 
-    padding: 1vh; 
-    display: inline-block;
-    font-size : 12vw; 
-} 
+.container{
+    display: flex;
+}
+.num{
+      font-size: 10vw ;
+}
+
+
 .text{ 
     
-    font-size: 3vw; 
+    font-size: 2.5vw; 
 } 
 .col{
-    margin-bottom:0.5vh;
+    /* margin-bottom:0.5vh;
+     */
+     margin-left:3vw;
+     margin-right: 3vw;
+     font-size: 10vw;
+}
+
 }
