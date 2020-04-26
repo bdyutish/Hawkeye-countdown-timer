@@ -5,35 +5,53 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Hawkeye</title>
 	</head>
-	<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+	
 	<link rel="stylesheet" href="styles.css">
 	<script src="index.js"></script>
 	<body>
-		<img class="iecse-logo" src="logo.svg" alt="iecse-logo">
-		<img class ="hawk-logo" src="hawklogo.svg" alt="hawk-logo">
+		<img class="iecse-logo" src="iecsefull.svg" alt="iecse-logo">
+		<img class ="hawk-logo" src="Hawk.svg" alt="hawk-logo">
 		<h1>HAWKEYE</h1> 
 		<div class="center-text">THE HAWK LANDS IN</div>
 		<div id="timer"> 
-			<div> 
-				<span class="days" id="day"></span> 
-				<span class="col">:</span>
+			<div class="container"> 
+				<div >
+				<span class="num" id="day"></span> 
 				<div class="text">days</div> 
+				</div>
+				<span class="col"> : </span>
+				
 			</div> 
-			<div> 
-				<span class="hours" id="hour"></span> 
-				<span class="col">:</span>
-				<div class="text">hours</div> 
-			</div> 
-			<div> 
-				<span class="minutes" id="minute"></span> 
-				<span class="col">:</span>
-				<div class="text">minutes</div> 
-			</div> 
-			<div> 
-				<span class="seconds" id="second"></span> 
+			
+				<div class="container">
+					<div>
+					<span class="num" id="hour"></span> 
+					<div class="text">hours</div> 
+					</div>
+			
+				
+				<span class="col"> : </span>
+				
+			</div>
+			 
+				<div class="container">
+				<div>
+					<span class="num" id="minute"></span> 
+					<div class="text">minutes</div> 
+				</div>
+				
+				<span class="col">      :     </span>
+				
+			</div>
+			
+				
+				<div class="container">
+				<div>
+				<span class="num" id="second"></span> 
 				<div class="text">seconds</div> 
+				</div>
 			</div> 
-		</div> 
+		
   
 		<p id="timeup"></p>
 	</body>
