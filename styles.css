@@ -1,138 +1,274 @@
-html{
-    background: url(bgnew1.svg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+@font-face {
+	font-family: hawk-font;
+	src: url(hawkfont.ttf);
 }
-@font-face{
-    font-family: hawk-font;
-    src: url(hawkfont.ttf);
+@font-face {
+	font-family: rules-text;
+	src: url(FuturaPTMedium.otf);
 }
-body{ 
-    text-align: center;  
-    
-    font-family : 'hawk-font';
-    /* font-weight: 900;  */
-} 
+body {
+	text-align: center;
+
+	/* font-weight: 900;  */
+}
 
 @media only screen and (min-width: 992px) {
+	html {
+		background: url(new.svg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	h1 {
+		color: #b455ff;
+		font-weight: 900;
+		font-size: 4vw;
+		margin: 3vh 0px;
+		letter-spacing: 0.05em;
+		font-family: 'hawk-font';
+	}
+	.iecse-logo {
+		position: absolute;
+		width: 7vw;
+		height: 3.5vw;
+		left: 1vw;
+		top: 0;
+		margin: 3vh;
+	}
+	.hawk-logo {
+		position: absolute;
+		width: 7vw;
+		height: 5vw;
+		right: 1vw;
+		bottom: 0;
+		margin: 3vh;
+	}
+	.instagram-logo {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		left: 1vw;
+		bottom: 0;
+		margin: 3vh;
+	}
+	.logo-insta {
+		height: 2.5vw;
+		width: 4.5vw;
+	}
+	.logo {
+		width: 4.5vw;
+		height: 3vw;
+	}
+	.center-text {
+		color: #b455ff;
+		font-size: 3vw;
+		letter-spacing: 0.2em;
+		margin-top: 15vh;
+		font-family: 'hawk-font';
+	}
+	#timer {
+		color: #b455ff;
+		display: inline-block;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin-top: 5vh;
+		font-family: 'hawk-font';
+	}
+	.container {
+		display: flex;
+	}
+	.num {
+		font-size: 5vw;
+		font-family: 'hawk-font';
+	}
 
-    h1{ 
-        color :#b455ff; 
-        font-weight: 900; 
-        font-size: 4vw; 
-        margin: 3vh 0px; 
-        letter-spacing: 0.05em;
-      } 
-      .iecse-logo{
-          position: absolute;
-          width:4vw;
-          height:4vw;
-          left:1vw;
-          top:0;
-          margin:3vh;
-      }
-      .hawk-logo{
-          position: absolute;
-          width:4vw;
-          height:4vw;
-          right:1vw;
-          bottom:0;
-          margin:3vh;
-      }
-      .center-text{
-          color:#b455ff;
-          font-size: 3.5vw;
-          letter-spacing: 0.2em;
-          margin-top:20vh;
-      }
-       #timer{ 
-          
-          color: #b455ff; 
-          display: inline-block; 
-          text-align: center; 
-          display:flex;
-          justify-content: center;
-          margin-top: 5vh;
-      } 
-      .container{
-          display: flex;
-      }
-      .num{
-            font-size: 10vw ;
-      }
-     
-      
-      .text{ 
-          
-          font-size: 2.5vw; 
-      } 
-      .col{
-          /* margin-bottom:0.5vh;
+	.text {
+		font-size: 1.5vw;
+		font-family: 'hawk-font';
+	}
+	.col {
+		/* margin-bottom:0.5vh;
            */
-           margin-left:3vw;
-           margin-right: 3vw;
-           font-size: 10vw;
-      }
+		margin-left: 3vw;
+		margin-right: 3vw;
+		font-size: 6vw;
+		font-family: 'hawk-font';
+	}
+	.content > h1 {
+		font-size: 2vw;
+		color: white;
+		font-family: 'rules-text';
+	}
 }
 @media only screen and (max-width: 992px) {
-h1{ 
-  color: #b455ff; 
-  font-weight: 900; 
-  font-size: 9vw; 
-  margin: 3vh 0px; 
-  letter-spacing: 0.05em;
-} 
-.iecse-logo{
-    position: absolute;
-    width:8vw;
-    height:8vw;
-    left:0;
-    top:0;
-    margin:3vh;
-}
-.hawk-logo{
-    position: absolute;
-    width:8vw;
-    height:8vw;
-    right:0;
-    bottom:0;
-    margin:3vh;
-}
-.center-text{
-    color:#b455ff;
-    font-size: 5vw;
-    letter-spacing: 0.2em;
-    margin-top:20vh;
-}
- #timer{ 
-    
-    color: #b455ff; 
-    display: inline-block; 
-    text-align: center; 
-    display:flex;
-    justify-content: center;
-    margin-top: 5vh;
-} 
-.container{
-    display: flex;
-}
-.num{
-      font-size: 10vw ;
-}
+	html {
+		background: url(BGMob.svg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	h1 {
+		color: #b455ff;
+		font-weight: 900;
+		font-size: 9vw;
+		margin: 3vh 0px;
+		font-family: 'hawk-font';
+		letter-spacing: 0.05em;
+	}
+	.iecse-logo {
+		position: absolute;
+		width: 15vw;
+		height: 16vw;
+		left: 0;
+		top: 0;
+		margin: 3.25vh 3vh 3vh 3vh;
+	}
+	.hawk-logo {
+		position: absolute;
+		width: 8vw;
+		height: 7vw;
+		right: 0;
+		top: 0;
+		margin: 2.75vh 3vh 3vh 3vh;
+	}
+	.center-text {
+		color: #b455ff;
+		font-size: 5vw;
+		letter-spacing: 0.2em;
+		margin-top: 15vh;
+		font-family: 'hawk-font';
+	}
+	#timer {
+		color: #b455ff;
+		display: inline-block;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin-top: 5vh;
+		font-family: 'hawk-font';
+	}
+	.container {
+		display: flex;
+	}
+	.num {
+		font-size: 10vw;
+		font-family: 'hawk-font';
+	}
 
-
-.text{ 
-    
-    font-size: 2.5vw; 
-} 
-.col{
-    /* margin-bottom:0.5vh;
+	.text {
+		font-size: 2.5vw;
+		font-family: 'hawk-font';
+	}
+	.col {
+		/* margin-bottom:0.5vh;
      */
-     margin-left:3vw;
-     margin-right: 3vw;
-     font-size: 10vw;
+		margin-left: 3vw;
+		margin-right: 3vw;
+		font-size: 10vw;
+		font-family: 'hawk-font';
+	}
+	.instagram-logo {
+		position: absolute;
+		display: flex;
+		justify-items: center;
+		left: 1vw;
+		bottom: 0;
+		margin: 3vh;
+	}
+	.logo-insta {
+		height: 4.5vw;
+		width: 7vw;
+	}
+	.logo {
+		width: 7vw;
+		height: 4.5vw;
+	}
+
+	.content > h1 {
+		font-family: 'rules-text';
+		font-size: 5vw;
+		color: white;
+	}
+	.content > h2 {
+		font-size: 2em;
+	}
+	.pop * {
+		font-size: 18px;
+	}
 }
 
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 20px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100vw; /* Full width */
+	height: 100vh; /* Full height */
+	background-color: black; /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	/* background-color: #fefefe; */
+	margin: auto;
+	padding: 20px;
+	border: 3px solid #b455ff;
+	width: 80%;
+	height: 95vh;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	font-family: 'rules-text';
+	color: white;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.pop {
+	font-size: 22px;
+	text-align: left;
+}
+
+#Button {
+	background: none !important;
+	border: none;
+	padding: 0 !important;
+	/*optional*/
+	font-family: 'hawk-font';
+	letter-spacing: 5px;
+	/*input has OS specific font-family*/
+	color: #f2ad00;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 3vh;
+	animation: blinker 1s step-start infinite;
+}
+#Button:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #f2ad00;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
 }

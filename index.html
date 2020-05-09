@@ -4,14 +4,164 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Hawkeye</title>
+
+
+		<meta
+			name="description"
+			content="IECSE's signature cryptic online scavenger hunt!"
+		/>
+		<meta property="og:url" content="https://hawkeye.iecsemanipal.com/">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Hawkeye’20">
+		<meta property="og:description"
+			content="IECSE's signature cryptic online scavenger hunt!">
+		<meta name="keywords"
+			content="IECSE,Hawkeye’20,Hawkeye,Hawkeye2020,MIT,Manipal,Manipal Institute of Technology,Hawk">
+		<meta name="author" content="IECSE">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="language" content="English">
+		<!-- SEO -->
+
+		<!-- Favicons -->
+		
+		<link rel="icon" href="./favicon.ico" />
+		<link rel="manifest" href="./manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Favicons -->
+
+
 	</head>
 	
 	<link rel="stylesheet" href="styles.css">
 	<script src="index.js"></script>
 	<body>
-		<img class="iecse-logo" src="iecsefull.svg" alt="iecse-logo">
+		<picture class="iecse-logo">
+			<source media="(max-width: 992px)" srcset="SmallLogo.svg">
+			<source media="(min-width: 992px)" srcset="iecsefull.svg">
+			<a href = "https://iecsemanipal.com">
+				<img src="iecsefull.svg" alt="">
+			</a>
+		  </picture>
 		<img class ="hawk-logo" src="Hawk.svg" alt="hawk-logo">
+		<div class="instagram-logo">
+			<a href = "https://www.instagram.com/iecsemanipal/">
+				<img class = "logo-insta" src="instagram.svg" alt="Follow us on instagram">
+			</a>
+			<a href = "https://www.facebook.com/iecsemanipal">
+				<img class = "logo" src="facebook.svg" alt="Follow us on Facebook">
+			</a>
+		</div>
 		<h1>HAWKEYE</h1> 
+
+		<button id="Button">NEW RULES!!</button>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="content">
+					<h1>Welcome to Hawkeye’20</h1>
+					<h2>Gameplay</h2>
+					<div class="pop">
+						<ol>
+							<li>This is an online scavenger hunt, it starts at 9/5/20 12:00 PM and ends on 12/5/20 11:59 PM</li>
+							<li>Due to a mishap with the time portal, you have been randomly dropped into one of the 5 total timelines that have been created.</li>
+							<li>The next timeline(region) will be made available after a certain period of time. You can unlock them faster if you solve the questions of your current timeline early.</li>
+							<li>If the answer is &#34;22 Cakes&#34; then the answer you should write is &#34;twotwo cakes&#34;. If the answer contains special characters, replace them to the nearest character.
+								For example, &#x27;&#x101;&#x27; becomes &#x27;a&#x27;. If the answer is &#x27;Steve Jobs&#x27; then the answer you should write is &#x27;steven paul jobs&#x27;.</li>
+							<li>All names, places, organizations, things should be as appears on Wikipedia with a few exceptions. They will mostly be the full name of the person, place, or thing.</li>
+							<li>All supporting images shall be linked externally or given to you. You will not find anything hidden in the codebase of the game.							</li>
+							<li>Hawk will also let you know if you’re on the right track, by indicating that it thinks you’re close, if your answer contains keywords close to the actual answer, or the correct answer partially. </li>
+							<li>Cheaters will be found by our monitoring system and will be ineligible for any prizes. Any suspicious behavior will be reported to us by the game.</li>
+						</ol>
+					</div>
+					<h2>Ranking & Points</h2>
+					<div class="pop">
+						<ol>
+							<li>You will receive points for every question you solve. The leaderboard is calculated based on the total points you have, and NOT the number of questions you have solved.</li>
+							<li>As you progress through these timelines, the points you get for answering a question also increases. After every third question that you solve, you get 1.5 times more points than you did for the previous ones.</li>
+							<li>To make it interesting, Hawk presents you with 4 different types of Elixirs, that you can buy using your points. However, due to a limited supply, there are only a few Elixirs of each kind you can buy. You can only use one Elixir on a particular question.</li>
+							<li>However, after you reach a certain point, you will be allowed to reset your supply of Elixirs at the cost of your points. But this will affect your position on the leaderboard, so use your points wisely.</li>
+							<li>Winners will be decided on the basis of who has the most points at the end of the game and who got there first. Therefore, it’s imperative that you buy and use your Elixirs wisely.</li>
+						</ol>
+					</div>
+					<h2>Elixirs</h2>
+					<div class="pop">
+						<ul>
+							<li>
+								Extra Hint - 30 points
+								<ul>
+									<li>If you’re stuck on a question, you can get an extra hint that is completely different from the default hints of the question.</li>
+								</ul>
+							</li>
+
+							<li>
+								Region Multiplier - 60 points
+								<ul>
+									<li>This elixir gives you an opportunity to score 1.5x times the points that were previously allotted to the questions. This elixir is valid ONLY for all questions in that particular region. The multiplier starts from the question, at which it is applied.</li>
+								</ul>
+							</li>
+							<li>
+								Hangman - 20 points
+								<ul>
+									<li>Hangman like the classic game gives you the letters of the answer with blanks in between. This way you get a chance to get to the answer, using a few letters of the actual answer!</li>
+								</ul>
+							</li>
+							<li>
+								Skip Question - 50 Points
+								<ul>
+									<li>For the first time ever, Hawk gives you the opportunity to skip a question! Remember that this will not count as an answered question, and points will not be added for it.</li>
+								</ul>
+							</li>
+							<br>
+							<br>
+							<br>
+							<br>
+					
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<script>
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("Button");
+		
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function() {
+		modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+		}
+
+		document.addEventListener('keyup', function(e) {
+			if (e.keyCode == 27) {
+				modal.style.display = "none";
+
+			}
+		});
+
+		</script>
+
 		<div class="center-text">THE HAWK LANDS IN</div>
 		<div id="timer"> 
 			<div class="container"> 

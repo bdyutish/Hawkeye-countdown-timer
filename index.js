@@ -1,4 +1,4 @@
-var deadline = new Date("may9, 2020 00:00:00").getTime(); 
+var deadline = new Date("may9, 2020 12:00:00").getTime(); 
   
 var x = setInterval(function() { 
   
@@ -20,3 +20,7 @@ if (t < 0) {
         document.getElementById("minute").innerHTML ='0' ;  
         document.getElementById("second").innerHTML = '0'; } 
 }, 1000); 
+
+
+
+
